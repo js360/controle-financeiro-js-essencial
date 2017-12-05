@@ -1,0 +1,59 @@
+body {
+    background-color: #f1c40f;
+    font-size: 1.2em;
+}
+
+input {
+    height: 2em;
+    margin-bottom: 0.5em;
+}
+
+table {
+    margin: auto;
+    margin-top: 1em;
+}
+
+th, td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#botao-receita, #botao-despesa {
+    font-size: 0.8em;
+    color: white;
+    padding: 0.5em 1em;
+    border: black;
+}
+
+#botao-receita {
+    background-color: green;
+}
+
+#botao-despesa {
+    background-color: red;
+}
+
+.receita {
+    color: green;
+}
+.despesa {
+    color: red;
+}
+
+.final, .final td {
+    padding-top: 1em;
+}
+
+.excluir {
+    background-color: red;
+    color: white;
+}
